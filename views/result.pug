@@ -2,9 +2,11 @@ extends layout
 block content
     article
         img(class="poster" src=`${data.poster}`)
+        
         h1 #{data.name}
         hr(size='3px')
         p #{data.actors}
+        img(class="actors_photo" src=`${data.actors_photo}`)
         p #{data.genre}
         hr(size='3px')
         p
